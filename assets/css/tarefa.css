@@ -1,0 +1,51 @@
+.conteudo{
+    background-color: var(--second-color);
+    margin: 0 auto;
+    width: 100%;
+    max-width: 450px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 6em;
+    border-radius: 6px;
+}
+
+.topo{
+     display: flex;
+     justify-content: space-between;
+     margin-bottom: 3em;
+}
+
+.topo input{
+    width: 350px;
+    padding: 15px;
+    border:none;
+    color: #fff;
+    border-radius: 5px;
+    outline: none;
+    background-color:rgba(0, 0, 0, 0.8);
+
+    
+}
+
+
+
+#listaTarefas{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#listaTarefas li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:20px;
+    background:rgba(0, 0, 0, 0.8) ;
+    border-radius:6px;
+    margin-top: 20px;
+    
+}
+
+
+
+

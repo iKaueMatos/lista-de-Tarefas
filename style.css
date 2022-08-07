@@ -1,0 +1,27 @@
+@import url('assets/css/tarefa.css');
+@import url('src/componentes/button.css');
+@import url('src/componentes/janela.css');
+
+
+:root{
+    ---fundo:rgb(14, 13, 13);
+    ---Primary-color:rgb(34, 30, 30);
+    --second-color:rgb(250, 230, 99);
+    --true-color:#1f1f1f;
+
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color: var(---fundo);
+}
+
+::placeholder{
+    color: rgb(112, 112, 112);
+    font-weight: 200;
+    font-size: 13px;
+}
